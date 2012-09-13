@@ -5,9 +5,8 @@
   
   Library dependencies for the included avr software:
 
-  // all of these are optional
-  ds3231      https://github.com/rodan/ds3231
-  IRremote    http://www.arcfn.com/2009/08/multi-protocol-infrared-remote-library.html
+  rfm12b      http://jeelabs.org/2009/02/10/rfm12b-library-for-arduino/
+  sdfatlib    http://code.google.com/p/sdfatlib/
 
   dependencies for the server-side software:
 
