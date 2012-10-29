@@ -2,7 +2,9 @@
   Target butler is an archery-related project that tries to 'read' the arrow score based on sound and vibration sensor readouts.
   4 sensors (microphones) are surrounding the target itself, each of the 4 channels are amplified and the resulting signal passes thru an envelope-detection circuit. the 4 ADC values are read at a ~1ms interval by the uC.
   power is either from a 2Ah LiPo accu, any random 5V source or a solar panel.
-  
+
+  this project has not reached a 'working' stage. the sensors need to be changed to something that has a more omni-directional quality.
+
   Library dependencies for the included avr software:
 
   rfm12b      http://jeelabs.org/2009/02/10/rfm12b-library-for-arduino/
